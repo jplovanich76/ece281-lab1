@@ -4,12 +4,30 @@
 
 ### Truth Table
 
-Insert your truth table here
+| Mon | A | B | C | D | Y |
+|-----|---|---|---|---|---|
+| Jan | 0 | 0 | 0 | 1 | 1 |
+| Feb | 0 | 0 | 1 | 0 | 0 |
+| Mar | 0 | 0 | 1 | 1 | 1 |
+| Apr | 0 | 1 | 0 | 0 | 0 |
+| May | 0 | 1 | 0 | 1 | 1 |
+| Jun | 0 | 1 | 1 | 0 | 0 |
+| Jul | 0 | 1 | 1 | 1 | 1 |
+| Aug | 1 | 0 | 0 | 0 | 1 |
+| Sep | 1 | 0 | 0 | 1 | 0 |
+| Oct | 1 | 0 | 1 | 0 | 1 |
+| Nov | 1 | 0 | 1 | 1 | 0 |
+| Dec | 1 | 1 | 0 | 0 | 1 |
+|     | 1 | 1 | 0 | 1 | X |
+|     | 1 | 1 | 1 | 0 | X |
+|     | 1 | 1 | 1 | 1 | X |
+|     | 0 | 0 | 0 | 0 | X |
+
 
 ### Boolean Equation
 
 $$
-Y = ?
+Y = A(comp)D + AD(comp)
 $$
 
 ### Digital Simulations
