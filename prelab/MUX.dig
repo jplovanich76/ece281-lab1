@@ -167,7 +167,20 @@ D as the least-significant bit.</string>
           <testData>
             <dataString>A B C D Y
 0 0 0 0 X
-0 0 0 1 1</dataString>
+0 0 0 1 1
+0 0 1 1 1
+0 1 0 0 0
+0 1 0 1 1
+0 1 1 0 0
+0 1 1 1 1
+1 0 0 0 1
+1 0 0 1 0
+1 0 1 0 1
+1 0 1 1 0
+1 1 0 0 1
+1 1 0 1 X
+1 1 1 0 X
+1 1 1 1 X</dataString>
           </testData>
         </entry>
       </elementAttributes>
